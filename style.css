@@ -1,0 +1,311 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "ZurichBT-BoldItalic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/ZurichBT-BoldItalic") format("truetype");
+}
+
+@font-face {
+  font-family: "ZurichBT-ExtendedUltra Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url("https://fonts.animaapp.com/ZurichBT-ExtendedUltraBlack")
+    format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:600italic,400,300,500,600");
+
+@font-face {
+  font-family: "SegoeUI-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SegoeUI-Regular") format("truetype");
+}
+
+:root {
+  --rose-white: #fff6f6;
+  --sapphire: #2f68a8;
+  --font-size-xl: 29px;
+  --font-size-m: 24px;
+  --font-size-xxxl: 40px;
+  --font-size-xxxl: 161px;
+  --font-size-xxl: 99px;
+  --font-size-l: 30px;
+  --font-family-fira_sans: "Fira Sans", Helvetica;
+  --font-family-segoeui-regular: "SegoeUI-Regular", Helvetica;
+  --font-family-zurich_bt: "Zurich BT", Helvetica;
+  --font-family-zurichbt-extendedultra_black: "ZurichBT-ExtendedUltra Black",
+    Helvetica;
+  --font-family-zurichbt-bolditalic: "ZurichBT-BoldItalic", Helvetica;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.web-1920-3 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  height: 1073px;
+  min-width: 1920px;
+  overflow-x: hidden;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.overlap-group1 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62a8a09f4b0ebeeff6eb1ea4/releases/62a8c1768fca4953c9ed12b9/img/homepage@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 94px;
+  min-height: 1080px;
+  padding: 266px 36px;
+  width: 1920px;
+  z-index: 1;
+}
+
+.overlap-group2 {
+  height: 330px;
+  margin-top: 8px;
+  position: relative;
+  width: 873px;
+}
+
+.title {
+  color: var(--rose-white);
+  font-family: var(--font-family-zurich_bt);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 99px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.span1 {
+  font-family: var(--font-family-zurichbt-bolditalic);
+  font-size: var(--font-size-xxl);
+  font-style: italic;
+}
+
+.span0 {
+  font-family: var(--font-family-zurichbt-extendedultra_black);
+  font-weight: 900;
+}
+
+.ux-designer-graphi {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: 40px;
+  font-weight: 300;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  top: 280px;
+  white-space: nowrap;
+}
+
+.home-page-location {
+  align-items: flex-end;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin-left: 351px;
+  margin-top: 57px;
+  width: 171px;
+}
+
+.place {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  height: 38px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-bottom: -12.1px;
+  margin-right: -2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 111px;
+}
+
+.x11653868085n6x6rbtab {
+  width: 60px;
+}
+
+.the-pinnacle-of-any {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 29px;
+  margin-left: 202px;
+  margin-top: 22px;
+  min-height: 72px;
+  min-width: 470px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.firasans-semi-bold-sapphire-29px {
+  color: var(--sapphire);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  font-weight: 600;
+}
+
+.firasans-semi-bold-rose-white-29px {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  font-weight: 600;
+}
+
+.header {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62a8a09f4b0ebeeff6eb1ea4/releases/62a8bcb52f2f787c60c59721/img/rectangle-66@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 94px;
+  left: -12px;
+  min-width: 1958px;
+  padding: 11px 40px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.buttons {
+  display: flex;
+  height: 61px;
+  justify-content: space-between;
+  margin-left: 600px;
+  margin-top: 2px;
+  width: 368px;
+}
+
+.about {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 163px;
+  padding: 5.5px 34px;
+}
+
+.about-1 {
+  letter-spacing: 0;
+  line-height: 29px;
+  min-height: 40px;
+  min-width: 94px;
+  white-space: nowrap;
+}
+
+.segoeui-regular-normal-rose-white-29px {
+  color: var(--rose-white);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.portfolio {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0;
+  min-width: 196px;
+  padding: 5.5px 22px;
+}
+
+.portfolio-1 {
+  letter-spacing: 0;
+  line-height: 29px;
+  min-height: 40px;
+  min-width: 151px;
+  white-space: nowrap;
+}
+
+.contact-icons {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  margin-left: 55px;
+  margin-top: 4px;
+  width: 146px;
+}
+
+.chat {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62a8a09f4b0ebeeff6eb1ea4/releases/62a8bcb52f2f787c60c59721/img/path-16@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4.1px;
+  margin-top: 4.1px;
+  min-height: calc(100% - 8px);
+  padding: 17.6px 8.7px;
+  width: 58.58px;
+}
+
+.path-17 {
+  height: 3px;
+  margin-top: 1px;
+  width: 22px;
+}
+
+.path-18 {
+  height: 3px;
+  margin-left: 2.51px;
+  margin-top: 5px;
+  width: 17px;
+}
+
+.linked-in_logo_initials {
+  border-radius: 19px;
+  width: 56px;
+}
+
+.overlap-group {
+  align-self: flex-end;
+  height: 56px;
+  position: relative;
+  width: 308px;
+}
+
+.portfolio-logo {
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 56px;
+}
+
+.name {
+  color: var(--rose-white);
+  font-family: var(--font-family-fira_sans);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
